@@ -1,5 +1,3 @@
-but not to 2.13.0 or 3.0.0.
-
 ## What is package.json?
 
 package.json is a configuration for npm
