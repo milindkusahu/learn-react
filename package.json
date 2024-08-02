@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "but not to 2.13.0 or 3.0.0.",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
   },
   "devDependencies": {
     "process": "^0.11.10"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
