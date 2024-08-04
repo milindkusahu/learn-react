@@ -13,6 +13,7 @@ const HeadingComponent = () => {
       <h1>This is my Functional Component</h1>
       <Heading />
       {Heading()}
+      <Heading></Heading>
     </div>
   );
 };
