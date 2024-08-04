@@ -56,3 +56,7 @@ npm install -D parcel
 - Component Composition => composing two componenets in one another
 - JSX Sanitize data (prevent cross site scripting)
 - We can also use `<Title></Title>` for defining component
+- Config Driven UI: A method where the user interface is defined by external configuration data, allowing for dynamic changes without altering the application's code.
+- Whenever we are looping over anything, we must always provide a `key` prop. This prevents React from unnecessarily re-rendering components when new items are added.
+- Using indexes as keys in React can lead to incorrect component behavior and performance issues, especially when list items can be added, removed, or reordered. React relies on keys for efficient updates, so unique, stable identifiers are preferred.
+-
