@@ -11,12 +11,12 @@ package.json is a configuration for npm
 npm install -D parcel
 ```
 
- (-D means dev dependency)
+(-D means dev dependency)
 
 ## What is Caret (^) and Tilde (~)?
 
-* Caret (^): Allows minor updates and patches. "^2.12.0" can update to any 2.x.x version like 2.13.0, 2.14.1, etc. But not 3.0.0.
-* Tilde (~): Allows only patch updates. "~2.12.0" can update to 2.12.x like 2.12.1, 2.12.2, etc., but not to 2.13.0 or 3.0.0.
+- Caret (^): Allows minor updates and patches. "^2.12.0" can update to any 2.x.x version like 2.13.0, 2.14.1, etc. But not 3.0.0.
+- Tilde (~): Allows only patch updates. "~2.12.0" can update to 2.12.x like 2.12.1, 2.12.2, etc., but not to 2.13.0 or 3.0.0.
 
 ## What is Parcel?
 
@@ -42,13 +42,17 @@ npm install -D parcel
 
 ### JSX
 
-* JSX and React are two separate things
-* JSX is not HTML in JavaScript
-* JSX is a HTML or XML like syntax
-* JSX transpiled before it reaches the JS -> PARCEL -> Babel
+- JSX and React are two separate things
+- JSX is not HTML in JavaScript
+- JSX is a HTML or XML like syntax
+- JSX transpiled before it reaches the JS -> PARCEL -> Babel
 
 ## React Component
 
-* Class Based Component - OLD
-* Functional Component - NEW
-* A function which is returning some piece of JSX is a Functional Component
+- Class Based Component - OLD
+- Functional Component - NEW
+- A function which is returning some piece of JSX is a Functional Component
+- Name react compenent with a Capital letter or else we will get a Error
+- Component Composition => composing two componenets in one another
+- JSX Sanitize data (prevent cross site scripting)
+- We can also use `<Title></Title>` for defining component
