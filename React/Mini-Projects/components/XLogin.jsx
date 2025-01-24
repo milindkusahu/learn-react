@@ -29,6 +29,7 @@ const XLogin = () => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             type="text"
+            placeholder="Username"
             className="border-4 border-purple-500 rounded-2xl"
           />
           <br />
@@ -38,6 +39,7 @@ const XLogin = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
+            placeholder="Password"
             className="border-4 border-purple-500 rounded-2xl"
           />
           <br />
