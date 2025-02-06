@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(43, 40, 40);
+}
+
+.results {
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.results span {
+  color: rgb(252, 68, 68);
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.results li {
+  margin-bottom: 10px;
+}
+
+.results li[data-correct="true"] {
+  color: rgb(30, 197, 30);
+}
+
+.results li[data-correct="false"] {
+  color: rgb(252, 68, 68);
+}
