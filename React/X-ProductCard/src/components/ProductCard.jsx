@@ -4,7 +4,7 @@ const ProductCard = () => {
       <div className="img-container">
         <img
           src="./product-desktop.jpg"
-          alt="A bottle of perfume surrounded by foliage."
+          alt="A bottle of perfume surrounded by foliage"
         />
       </div>
       <div className="text-container">
