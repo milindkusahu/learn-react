@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="attribution">
-      Challenge by <a href="https://www.crio.do/">Crio</a>. Coded by Milind.
+      <a href="https://www.crio.do/">Challenge by Crio</a>. Coded by Milind.
     </div>
   );
 };
